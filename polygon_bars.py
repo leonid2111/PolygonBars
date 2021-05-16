@@ -4,7 +4,7 @@ import getopt, sys
 import datetime
 import time
 
-#test = 'https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2020-06-01/2020-06-17?apiKey=vHXfUcXWb7dn_qMBuFXe_Rna3SFuE7nJ'
+#test = 'https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2020-06-01/2020-06-17?apiKey=.........'
 '''
 Polygon bars: response is limited to 50,000 underlying 1-minute bars (need to specify limit=50000 in the query, otherwise it's 5,000)
 This is at most 50,000/60/24 = 34 days, in reality more than this, since not every minute has a bar
